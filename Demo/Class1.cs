@@ -14,5 +14,10 @@ namespace Demo
         {
             Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument.Editor.WriteMessage("Hello World");
         }
+        [Autodesk.AutoCAD.Runtime.CommandMethod("tool2")]
+        public void Tool2()
+        {
+            Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument.Editor.WriteMessage("Hello World");
+        }
     }
 }
